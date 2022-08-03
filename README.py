@@ -44,14 +44,13 @@ print("sum of all the value is :",s)
 
 #Flag Variables
 
-# so how this works is when the given statement true it takes flag =1 and  in next statement flag ==1 is " is not a prime number",so fi the given statement is  not true the value of flag which we predermined  as zero is not equal to 1 hence  it moves to next statement, if we didnt mention the value of flag to zero if it is a prime number it will not execute and gives as error = 'flag' is not defined. Did you mean: 'float'?
-
+# so how this works is when the given statement true it takes flag = 1 and  in next statement flag ==1 is " is not a prime number",so if the given statement is  not true the value of flag which we predermined  as zero is not equal to 1 hence  it moves to next statement, if we didnt mention the value of flag to zero if it is a prime number it will not execute and gives as error = 'flag' is not defined. Did you mean: 'float'?
 
 x = int(input("please enter a number"))
-
+flag = 0
 for i in range(2,x):
     if x%i==0:
-        flag = 1  # so how this works is when the given statement true it takes flag =1 and  in next statement flag ==1 is " is not a prime number",so fi the given statement is  not true the value of flag which we predermined  as zero is not equal to 1 hence  it moves to next statement, if we didnt mention the value of flag to zero if it is a prime number it will not execute and gives as error = 'flag' is not defined. Did you mean: 'float'
+        flag = 1  # so how thefkag works is when the given statement true it takes flag =1 and  in next statement flag ==1 is " is not a prime number",so fi the given statement is  not true the value of flag which we predermined  as zero is not equal to 1 hence  it moves to next statement, if we didnt mention the value of flag to zero if it is a prime number it will not execute and gives as error = 'flag' is not defined. Did you mean: 'float'?
 if flag == 1:
     print('it is not a prime number')
 else:
